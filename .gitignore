@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.tfvars
+profiles.yml
+
+# Python
+__pycache__/
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate*
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Airflow
+airflow/logs/
+
+# Données générées
+data/
+*.csv
